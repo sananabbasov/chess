@@ -1,0 +1,65 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#chess-game .chess-board {
+  height: 20px;
+}
+
+#chess-game .chess-board .box {
+  float: left;
+  width: 12%;
+  height: 80px;
+  color: white;
+  position: relative;
+}
+
+#chess-game .chess-board .box.black {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+}
+
+#chess-game .chess-board .fas {
+  color: #f0f3f7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+
+#chess-game .chess-board .white {
+  float: left;
+  width: 12%;
+  height: 80px;
+  background-color: #bdc3c7;
+  border: 1px solid #2c3e50;
+  position: relative;
+}
+
+#chess-game .chess-board .chessNumber {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#chess-game .chess-board .alphabet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* align-items: flex-start; */
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
